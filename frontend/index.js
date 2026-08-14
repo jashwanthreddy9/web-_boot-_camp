@@ -23,7 +23,7 @@ function toggleUser(){
 }
 function randomUser(){
     fetch("https://randomuser.me/api")
-        .then(function(res){
+        .then(function(res){ 
             return res.json();
         })
         .then(function(data){
